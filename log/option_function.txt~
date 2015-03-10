@@ -1,0 +1,9 @@
+This log keep track of the development of the 'optional function'
+
+//updated 2015.3.10
+Requirement: the flag of hip/sleek can be written at the top of the target file.
+With syntax like #option --ato -prelude "prelude_aux.ss"
+
+There could be a flag to control this process, --iflag, which means inner flags are taken into consideration. When there are conflicts, inner flags will have lower priority.
+
+Then the file will be opened twice.
